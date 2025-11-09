@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alunara BSD — Ruko Komersial BSD City</title>
+  <meta name="description" content="Ruko komersial Alunara BSD Society Hub di BSD Timur, boulevard row 40. Tersedia tipe 2–3 lantai, cocok untuk F&B, retail, dan jasa dengan potensi traffic tinggi.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#home" class="brand">Alunara BSD</a>
+      <nav class="nav">
+        <a href="#units">Unit</a>
+        <a href="#gallery">Galeri</a>
+      </nav>
+
+      <!-- Tombol toggle tema -->
+      <button id="themeToggle" class="theme-toggle" aria-label="Ubah tema" title="Ubah tema">🌙</button>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- Hero -->
+    <section class="hero container">
+      <div class="hero__content">
+        <p class="kicker">Ruko Komersial • BSD Timur</p>
+        <h1 class="title">Alunara BSD Society Hub</h1>
+        <p class="lead">
+          Kawasan komersial terbaru di <strong>boulevard row 40 BSD Timur</strong> dengan deretan ruko 2–3 lantai.
+          Lokasi strategis, visibilitas tinggi, dan dikelilingi permukiman BSD City yang terus berkembang.
+        </p>
+        <div class="hero__cta">
+          <a class="btn" href="#units">Lihat Tipe Unit</a>
+          <a class="btn btn--outline" href="#gallery">Lihat Galeri &amp; Denah</a>
+        </div>
+        <ul class="badges">
+          <li>🚗 Boulevard 2 arah</li>
+          <li>🧭 Kawasan komersial BSD Timur</li>
+          <li>🌐 Fiber optic ready</li>
+        </ul>
+      </div>
+
+      <!-- Hero Image (pakai desain lama: placeholder / bisa kamu ganti sendiri) -->
+      <div class="hero__visual card">
+        <div class="hero__image">
+          <img
+            src="hero_alunara.png"
+            alt="Tampak depan deretan ruko Alunara BSD Society Hub" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Unit Tersedia -->
+     <!-- Unit Tersedia -->
+    <section id="units" class="section container">
+      <div class="section__head">
+        <h2 class="section__title">Tipe Unit Alunara BSD</h2>
+        <p class="muted">
+          Pilihan ruko 2–3 lantai dengan lebar muka ideal untuk F&amp;B, retail, dan jasa.
+          <br>*Harga dan ketersediaan unit dapat berubah sewaktu-waktu.
+        </p>
+      </div>
+
+      <div class="grid grid-3">
+        <!-- Tipe 4.5 × 10 (2 Lantai) -->
+        <article class="card property">
+          <div class="property__media">
+            <img
+              src="assets/img/fasad-alunara-18.png"
+              alt="Fasad ruko Alunara BSD tipe 4.5 × 10 dua lantai"
+              onclick="openLightbox(this.currentSrc||this.src,this.alt)">
+          </div>
+          <div class="property__title">Tipe 4.5 × 10 • 2 Lantai</div>
+          <div class="property__meta">LB ± 92 m² • LT ± 45 m² • 1 Kamar Mandi</div>
+          <div class="property__price">Harga mulai  Rp 1,7 M-an*</div>
+          <div class="property__cta">
+            <a class="btn btn--outline" href="#gallery">Lihat Denah</a>
+            <a class="btn" href="#gallery">Lihat Fasad</a>
+          </div>
+        </article>
+
+        <!-- Tipe 4.5 × 8 (2 Lantai) -->
+        <article class="card property">
+          <div class="property__media">
+            <img
+              src="assets/img/fasad-alunara-19.png"
+              alt="Fasad ruko Alunara BSD tipe 4.5 × 8 dua lantai"
+              onclick="openLightbox(this.currentSrc||this.src,this.alt)">
+          </div>
+          <div class="property__title">Tipe 4.5 × 8 • 2 Lantai</div>
+          <div class="property__meta">LB ± 58 m² • LT ± 36 m² • 1 Kamar Mandi</div>
+          <div class="property__price">Harga mulai Rp 2,0 M-an*</div>
+          <div class="property__cta">
+            <a class="btn btn--outline" href="#gallery">Lihat Denah</a>
+            <a class="btn" href="#gallery">Lihat Fasad</a>
+          </div>
+        </article>
+
+        <!-- Tipe 5 × 12 (3 Lantai) -->
+        <article class="card property">
+          <div class="property__media">
+            <img
+              src="assets/img/fasad-alunara-20.png"
+              alt="Fasad ruko Alunara BSD tipe 5 × 12 tiga lantai"
+              onclick="openLightbox(this.currentSrc||this.src,this.alt)">
+          </div>
+          <div class="property__title">Tipe 5 × 12 • 3 Lantai</div>
+          <div class="property__meta">LB ± 185 m² • LT ± 59 m² • 3 Kamar Mandi</div>
+          <div class="property__price">Harga mulai  Rp 4,7 M-an*</div>
+          <div class="property__cta">
+            <a class="btn btn--outline" href="#gallery">Lihat Denah</a>
+            <a class="btn" href="#gallery">Lihat Fasad</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="cta-bar card">
+        <div>
+          <h3 class="cta__title">Masih bingung pilih tipe?</h3>
+          <p class="muted">
+            Ceritakan kebutuhan usaha Anda (F&amp;B, kantor, klinik, dll), kami bantu rekomendasikan tipe dan posisi ruko yang paling sesuai.
+          </p>
+        </div>
+        <a
+          class="btn"
+          href="https://wa.me/6282298692056?text=Halo%20saya%20ingin%20dibantu%20memilih%20tipe%20ruko%20di%20Alunara%20BSD"
+          target="_blank">
+          Konsultasi via WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <!-- Galeri & Denah -->
+    <section id="gallery" class="section container">
+      <h2 class="section__title">Galeri &amp; Denah</h2>
+      <p class="muted">
+        Siteplan kawasan dan denah tiap tipe ruko Alunara BSD, diambil dari e-brochure resmi.
+      </p>
+
+      <div class="grid grid-4 gallery" id="galleryGrid">
+        <!-- Denah 5×12 Standard -->
+        <figure class="card gallery__item">
+          <img
+            src="assets/img/denah-5x12-standard.png"
+            alt="Denah ruko Alunara BSD tipe 5 × 12 Standard (3 lantai)"
+            onclick="openLightbox(this.currentSrc||this.src,this.alt)">
+        </figure>
+
+        <!-- Denah 5×12 Corner -->
+        <figure class="card gallery__item">
+          <img
+            src="assets/img/denah-5x12-corner.png"
+            alt="Denah ruko Alunara BSD tipe 5 × 12 Corner"
+            onclick="openLightbox(this.currentSrc||this.src,this.alt)">
+        </figure>
+
+        <!-- Denah 4.5×10 Standard -->
+        <figure class="card gallery__item">
+          <img
+            src="assets/img/denah-45x10-standard.png"
+            alt="Denah ruko Alunara BSD tipe 4.5 × 10 Standard (2 lantai)"
+            onclick="openLightbox(this.currentSrc||this.src,this.alt)">
+        </figure>
+
+        <!-- Denah 4.5×8 Taman -->
+        <figure class="card gallery__item">
+          <img
+            src="assets/img/denah-45x8-taman.png"
+            alt="Denah ruko Alunara BSD tipe 4.5 × 8 (Taman)"
+            onclick="openLightbox(this.currentSrc||this.src,this.alt)">
+        </figure>
+      </div>
+
+      <!-- Lightbox Overlay -->
+      <div
+        id="lightbox"
+        class="lightbox"
+        aria-hidden="true"
+        role="dialog"
+        aria-label="Pratinjau gambar">
+        <button
+          type="button"
+          class="lightbox__close"
+          aria-label="Tutup (Esc)"
+          onclick="closeLightbox()">×</button>
+        <img id="lightboxImg" alt="">
+        <div class="lightbox__caption" id="lightboxCap"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> Alunara BSD.</div>
+  </footer>
+
+  <!-- Floating Social Buttons -->
+  <div class="float-socials">
+    <a
+      href="https://wa.me/6282298692056?text=Halo%20saya%20tertarik%20dengan%20unit%20di%20Alunara%20BSD"
+      class="float-btn wa"
+      target="_blank"
+      aria-label="Chat via WhatsApp"
+      data-tooltip="Chat WhatsApp">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+    <a
+      href="https://instagram.com/megaindah_properti"
+      class="float-btn ig"
+      target="_blank"
+      aria-label="Instagram Alunara BSD"
+      data-tooltip="Instagram">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+    </a>
+    <a
+      href="mailto:megaindah.akianto@gmail.com"
+      class="float-btn mail"
+      aria-label="Email Alunara BSD"
+      data-tooltip="Kirim Email">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail">
+    </a>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
